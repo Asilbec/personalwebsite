@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         <div className='introduction-container-content'>
           <div>
             <h1>Welcome,</h1>
-            <h1>We"re here to <mark>help!</mark> </h1>
+            <h1>{"We're here to"}<mark>help!</mark> </h1>
             <p>The next step in online marketing</p>
             <div className='introduction-button-container'>
               <button>More</button>
