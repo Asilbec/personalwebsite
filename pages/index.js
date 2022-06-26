@@ -15,7 +15,7 @@ export default function Home() {
         <div className='future-text-image-container-wrapper'>
           <div className='future-text-image-container'>
             <div style={{ maxWidth: '700px', padding: '20px' }} className='future-text-text-container'>
-              <h2><mark>What is Ecommerce?</mark></h2>
+              <h2>What is Ecommerce?</h2>
               <p>
                 Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions. Ecommerce is often used to refer to the sale of physical products online, but it can also describe any kind of commercial transaction that is facilitated through the internet.
               </p>
@@ -29,7 +29,7 @@ export default function Home() {
           </div>
           <div className='future-text-image-container'>
             <div style={{ maxWidth: '700px', padding: '20px' }} className='future-text-text-container'>
-              <h2><mark>Benifits of Ecommerce</mark></h2>
+              <h2>Benifits of Ecommerce</h2>
               <ol style={{ padding: '0px' }}>
                 <li>
                   <mark id='listtype'>Overcome Geographical Limitations
@@ -71,7 +71,7 @@ export default function Home() {
 
           <div className='future-text-image-container'>
             <div style={{ maxWidth: '700px', padding: '20px' }} className='future-text-text-container'>
-              <h2><mark>The Future</mark></h2>
+              <h2>The Future</h2>
               <p>
                 he ecommerce industry is expected to grow by almost $11 trillion between 2021 and 2025. As businesses came online during the COVID-19 pandemic, the global trend toward digitization surged ahead at lightning speed. Even as regions begin to reopen, ecommerce growth keeps climbing. Global ecommerce sales are expected to reach $5 trillion in 2022, and $6 trillion by 2024.
               </p>
@@ -91,6 +91,12 @@ export default function Home() {
               <p style={{ textAlign: 'center', paddingTop: 0, marginTop: '0', color: 'gray' }}>Retail ecommerce sales worldwide from 2014</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='why-chose-us-container'>
+        <div className='why-chose-us-container-wrapper'>
+          <h1>Why choose us?</h1>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
       <div className='services-container'>

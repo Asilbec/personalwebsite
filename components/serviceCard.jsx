@@ -2,12 +2,10 @@ import React from 'react'
 import { AiFillCrown } from "react-icons/ai";
 
 
-
 const ServiceCard = (prop) => {
   return (
     <div className='service-card-in-wrapper'>
       <div className='service-card-in-wrapper-container'>
-        <AiFillCrown style={{margin:'auto',marginLeft:10}} size={35}/>
           <h1>{prop.title}.</h1>
          <ul>
           <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
