@@ -1,0 +1,171 @@
+.services-container{
+    width: 100%;
+    height: fit-content;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+.service-container-wrapper{
+    width: 100%;
+    max-width: 1350px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.service-container-wrapper h1{
+    padding: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: auto;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.service-card-in-wrapper{
+    width: 100%;
+    max-width: 340px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+   box-shadow: 0 2px 6px -2px rgba(52, 51, 51, 0.859);
+   box-shadow: none;
+}
+
+.service-card-in-wrapper-container{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.service-container-wrapper ul{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 0;
+    font-weight: 200;
+    padding: 10px;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(0, 255, 60); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.future-container{
+    max-width: 1100px;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.future-container h1{
+    padding: 10px;
+    text-transform: uppercase;
+    margin: auto;
+    margin: auto;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: calc(1.35em + 2vmin);
+    line-height: calc(1.47em + 2vmin);
+}
+
+.future-container h2{
+    text-transform: uppercase;
+    font-size: calc(1.5em + 2vmin);
+    text-align: left;
+}
+
+.future-container p{
+    font-size: 18px;
+    margin-top: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-weight: 400;
+    color: rgb(37, 33, 33);
+}
+
+.future-text-image-container-wrapper{
+    width: 100%;
+    height: fit-content;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.future-text-image-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.future-text-image-image{
+    width: 100%;
+    max-width: 300px;
+    max-height: 400px;
+    padding: 20px;
+}
+
+.future-text-text-container{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    font-weight: 300;
+    list-style: inside ;
+}
+
+.future-text-text-container h4{
+    font-size: 18px;
+    color: rgb(43, 43, 43);
+    font-weight: 300;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.future-text-text-container li{
+    font-size: 23px;
+    margin: 20px 0px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0)
+}
+
+mark {
+    background:linear-gradient(180deg, transparent 65%, rgb(56, 222, 251) 65%);
+}
+
+#listtype{
+    background:linear-gradient(180deg, transparent 60%, rgba(9, 255, 62, 0.649) 60%);
+}
