@@ -53,7 +53,7 @@ export default function Home() {
                 <li>
                   <mark id='listtype'>Remain Open All the Time
                   </mark>
-                  <h4>Store timings are now 24/7/365. E-commerce websites can run all the time. From the merchant"s point of view, this increases the number of orders they receive. From the customer"s point of view, an "always open" store is more convenient. </h4>
+                  <h4>{"Store timings are now 24/7/365. E-commerce websites can run all the time. From the merchant's point of view, this increases the number of orders they receive. From the customer's point of view, an 'always' open store is more convenient. "}</h4>
                 </li>
                 <li>
                   <mark id='listtype'>Create Markets for Niche Products
@@ -79,7 +79,7 @@ export default function Home() {
                 Merchants continue to follow consumer demand online, flocking to ecommerce in record numbers. Online stores are popping up daily, with an estimated 12–24 million ecommerce sites across the globe. This ecommerce growth means more brands competing for customers. As a result, digital advertising is more costly and less lucrative than ever before.
               </p>
               <p>
-                A quote from The Art of War, China"s monumental treatise on warfare goes like this: <mark>"Know the enemy and know yourself"</mark>  in a hundred battles you will never be in peril."
+                {"A quote from The Art of War, China's monumental treatise on warfare goes like this:"} <mark>{"'Know the enemy and know yourself'"}</mark>  in a hundred battles you will never be in peril.{"'"}
               </p>
             </div>
           </div>
