@@ -1,7 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Footer from './footer';
-import Navbar from './navbar';
 
 const Layout = ({ children }) => {
   return (
@@ -15,11 +13,18 @@ const Layout = ({ children }) => {
         <div className='introduction-container-content'>
           <div>
             <h1>Welcome,</h1>
-            <h1>{"We're here to"}<mark>help!</mark> </h1>
+            <h1>{"We're here to"} help! </h1>
             <p>The next step in online marketing</p>
             <div className='introduction-button-container'>
-              <button>More</button>
-              <button>Explore</button>
+              <button>
+                <a href='#future-text'>
+                  Explore
+                </a>
+              </button>
+              <button>
+                <a href='#services-container-id'>
+                About
+                  </a></button>
             </div>
           </div>
         </div>
@@ -27,9 +32,6 @@ const Layout = ({ children }) => {
       <main className="main-container">
         {children}
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </div>
   )
 }

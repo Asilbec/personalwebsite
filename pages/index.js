@@ -27,7 +27,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className='future-text-image-container'>
+          <div id='future-text' className='future-text-image-container'>
             <div style={{ maxWidth: '700px', padding: '20px' }} className='future-text-text-container'>
               <h2>Benifits of Ecommerce</h2>
               <ol style={{ padding: '0px' }}>
@@ -99,7 +99,7 @@ export default function Home() {
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry{"'"}s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
-      <div className='services-container'>
+      <div id='services-container-id' className='services-container'>
         <div className='service-container-wrapper'>
           <ServiceCard title='Easy to manage' />
           <ServiceCard title='100% secure' />

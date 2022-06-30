@@ -57,8 +57,7 @@
     box-shadow: 3px 5px 3px rgba(52, 52, 52, 0.042);
 }
 
-.introduction-button-container :nth-last-child(1){
-    background-color: rgb(64, 255, 0);
+.introduction-button-container{
     color: rgb(255, 255, 255);
 }
 
